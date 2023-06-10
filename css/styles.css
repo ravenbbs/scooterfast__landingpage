@@ -48,6 +48,11 @@
   opacity: 0;
   transition: ease-in-out 1s;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
+
 
 /* Estilos del header la pagina web */
 
