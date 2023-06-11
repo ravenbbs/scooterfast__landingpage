@@ -237,7 +237,8 @@ button {
 
 
 .bg-light {
-    background-color: #ef5051!important;
+    background-color: #bc4ed8;
+    background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
     height: 130px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -281,7 +282,8 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background-color: #ef5051;
+    background-color: #bc4ed8;
+    background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -320,7 +322,8 @@ button {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #ef5051;
+    background-color: #bc4ed8;
+    background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
     text-align: center;
     padding: 8px;
     border-radius: 30px;
@@ -374,7 +377,7 @@ button {
     position: absolute;
     left: 1254px;
     top: 83%;
-    background-color: #201f33;
+    background-color: #18181a;
     color: #fff;
 }
 .image_2{
@@ -409,7 +412,9 @@ button {
     float: right;
     font-size: 18px;
     color: #ffffff;
-    background-color: #ef5051;
+    background-color: #bc4ed8;
+    background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
+    background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
     text-align: center;
     padding: 8px;
     border-radius: 30px;
@@ -429,6 +434,7 @@ button {
     background-image: url(../images/bg-1.png);
     background-size: 100%;
     height: 480px;
+
 }
 .about_section {
     width: 100%;
@@ -446,7 +452,8 @@ button {
 .services_section{
     width: 100%;
     float: left;
-    background-color: #ef5051;
+    background-color: #bc4ed8;
+    background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
     height: auto;
     padding-bottom: 90px;
 }
@@ -474,7 +481,7 @@ button {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #ef5051;
+    background-color: #bc4ed8;
     text-align: center;
     padding: 8px;
     border-radius: 30px;
@@ -501,7 +508,7 @@ button {
     width: 100%;
     float: left;
     font-size: 24px;
-    color: #ef5051;
+    color: #bc4ed8;
     text-align: center;
     font-weight: bold;
     padding-top: 30px;
@@ -517,7 +524,8 @@ button {
 color: #000000; 
 }
 .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
-    color: #ee4b4d;
+    color: #bc4ed8;
+    background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
     text-decoration: none;
     outline: 0;
     opacity: .9;
@@ -542,14 +550,14 @@ color: #000000;
 .contact_section{
     width: 100%;
     float: left;
-    background-color: #ef5051;
+    background-color: #bc4ed8;
+    background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
     height: auto;
     padding-top: 0px;
 }
 .bg_6 {
     width: 100%;
     float: left;
-    background-image: url(../images/bg-6.png);
     background-size: 100%;
     height: 510px;
     margin-top: 75px;
@@ -564,6 +572,7 @@ color: #000000;
     padding-right: 20px;
     border: 0px;
     padding-top: 20px;
+    
 }
 input.mail_text::placeholder {
     color: #fff;
@@ -619,7 +628,7 @@ input.mail_text::placeholder {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #201f33;
+    background-color: #1b004b;
     height: auto;
     padding-bottom: 50px;
     border-top: 10px solid #fff;
@@ -642,7 +651,7 @@ input.mail_text::placeholder {
     color: #ffffff;
 }
 .map_text a :hover{
-    color: #ef5051;
+    color: #bc4ed8;
 }
 .map_icon{
     padding-left: 15px;
@@ -723,7 +732,8 @@ top: 27%;
 }
 
 .footer_menu li.active::before,.footer_menu li:hover::before{
-    background-color: #ef5051;
+    background-color: #bc4ed8;
+    
 }
 .footer_menu li a{
     color: #ffffff;
@@ -731,7 +741,7 @@ top: 27%;
 .copyright_section{
     width: 100%;
     float: left;
-    background-color: #201f33;
+    background-color: #1b004b;
     height: auto;
 }
 
@@ -753,7 +763,7 @@ top: 27%;
     color: #fcfcfc;
 }
 .copyright_text a:hover{
-    color: #ef5051;
+    color: #bc4ed8;
 }
 
 
