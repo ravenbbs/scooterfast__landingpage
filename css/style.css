@@ -462,7 +462,7 @@ button {
 .services_text{
     display: inline-block;
     width: 50%;
-    float: left;
+    /* float: left; */
     font-size: 30px;
     color: #bc4ed8;
     font-weight: bold;
