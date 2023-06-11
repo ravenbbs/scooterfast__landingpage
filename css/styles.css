@@ -6,6 +6,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+a {
+  color: #1f1f1f;
+  text-decoration: none;
+  outline: none;
+}
 /* inicio animacion */
 .intro{
   position: fixed;
