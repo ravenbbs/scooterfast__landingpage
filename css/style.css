@@ -220,12 +220,22 @@ button {
 
 .padding_0{
      padding: 0px;
+     display: flex;
+     justify-content: center;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
     font-size: 18px;
 }
+.logo-title{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: -15px;
+}
+
+
 .bg-light {
     background-color: #ef5051!important;
     height: 130px;
@@ -330,8 +340,14 @@ button {
     padding-left: 260px;
 }
 .image_1{
-    width: 100%;
+    width: 50%;
+    height: 50%;
     float: left;
+    /* border-radius: 50%; */
+}
+
+.img-carousel {
+    border-radius: 20%;
 }
 
 #main_slider .carousel-control-prev:hover, #main_slider .carousel-control-next:hover, #main_slider .carousel-control-prev:focus, #main_slider .carousel-control-next:focus {
