@@ -214,7 +214,7 @@ button {
 }
 
 .layout_padding {
-     padding-top: 90px;
+     padding-top: 10px;
      padding-bottom: 0px;
 }
 
@@ -294,8 +294,9 @@ button {
     width: 100%;
     float: left;
     background-image: url(../images/bg-1.png);
-    background-size: 100%;
-    height: 480px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 .best_text {
     width: 100%;
@@ -333,14 +334,22 @@ button {
     background-color: #ffffff;
 }
 .padding_left0{
-    width: 100%;
-    float: left;
+    width: 80%;
+    height: 100%;
     padding-left: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .padding_left10{
     width: 100%;
-    float: left;
-    padding-left: 260px;
+   
+    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .image_1{
     width: 40%;
@@ -429,14 +438,20 @@ button {
 .padding_left01 {
     width: 100%;
     float: left;
-    padding-right: 20px;
+    padding-right: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .bg_2 {
     width: 100%;
     float: left;
     background-image: url(../images/bg-1.png);
-    background-size: 100%;
-    height: 480px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
 
 }
 .about_section {
@@ -445,10 +460,11 @@ button {
     padding-bottom: 90px;
 }
 .services_text{
-    width: 100%;
+    display: inline-block;
+    width: 50%;
     float: left;
     font-size: 30px;
-    color: #e94e4f;
+    color: #bc4ed8;
     font-weight: bold;
     padding-top: 90px;
 }
@@ -458,14 +474,21 @@ button {
     background-color: #bc4ed8;
     background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
     height: auto;
-    padding-bottom: 90px;
+    padding-bottom: 20px;
 }
 .bg_3 {
+    padding-left: 20px;
     width: 100%;
     float: left;
     background-image: url(../images/bg-2.png);
-    background-size: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .many_text2{
     width: 55%;
@@ -476,7 +499,7 @@ button {
     margin-left: 0px;
 }
 .read_bt2 {
-    width: 75%;
+    width: 45%;
     float: left;
 }
 .read_bt2 a {
@@ -547,7 +570,7 @@ color: #000000;
     float: left;
     background-image: url(../images/bg-1.png);
     background-size: 100%;
-    height: 480px;
+    height: 4 80px;
     margin-top: 75px;
 }
 .contact_section{
@@ -563,8 +586,15 @@ color: #000000;
     float: left;
     background-size: 100%;
     height: 510px;
-    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+.bg_6 img{
+    height: 80%;
+}
+
 .mail_text {
     width: 100%;
     float: left;
@@ -596,37 +626,35 @@ input.mail_text::placeholder {
     color: #fff;
 }
 .contact_text{
-    width: 100%;
-    float: left;
+    width: 60%;
+  
     font-size: 40px;
     color: #0a0707;
     font-weight: bold;
     padding-top: 120px; 
+   
 }
 .content_text{
-    width: 70%;
-    float: left;
-    font-size: 16px;
+    width: 60%;
+  
+    font-size: 22px;
     color: #0f0e0e;
     margin-left: 0px;
-    text-align: left;
+    padding-right: 12%;
 }
 .bg_7 {
 
     width: 100%;
     float: left;
     background-image: url(../images/bg-2.png);
-    background-size: 100%;
-    height: 480px;
-    margin-top: 90px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 95%;
+    margin-top: 20px;
 
 }
-.mail_section {
-    width: 74%;
-    float: left;
-    margin-top: 120px;
-    padding-left: 180px;
-}
+
 
 .footer_section {
     width: 100%;
