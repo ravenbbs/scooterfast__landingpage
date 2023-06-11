@@ -1,7 +1,5 @@
 /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
-
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @font-face {
@@ -392,7 +390,6 @@ button {
     color: #000;
     /* border-radius: 100%; */
 }
-
 #main_slider a.carousel-control-prev {
     position: absolute;
     left: 1254px;
@@ -460,8 +457,6 @@ button {
     background-repeat: no-repeat;
     height: 100%;
     display: flex;
- 
-
 }
 .about_section {
     width: 100%;
