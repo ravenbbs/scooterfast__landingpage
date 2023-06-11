@@ -343,14 +343,17 @@ button {
     padding-left: 260px;
 }
 .image_1{
-    width: 50%;
+    width: 40%;
     height: 50%;
     float: left;
-    /* border-radius: 50%; */
 }
 
 .img-carousel {
     border-radius: 20%;
+}
+
+.img-tutorial{
+    width: 40%;
 }
 
 #main_slider .carousel-control-prev:hover, #main_slider .carousel-control-next:hover, #main_slider .carousel-control-prev:focus, #main_slider .carousel-control-next:focus {
