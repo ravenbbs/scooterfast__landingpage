@@ -330,7 +330,7 @@ button {
 .padding_left10{
     width: 100%;
     float: left;
-    padding-left: 260px;
+    padding-left: 10px;
 }
 .image_1{
     width: 100%;
@@ -585,7 +585,7 @@ input.mail_text::placeholder {
     padding-top: 120px; 
 }
 .content_text{
-    width: 70%;
+    width: 50%;
     float: left;
     font-size: 16px;
     color: #0f0e0e;
@@ -597,17 +597,14 @@ input.mail_text::placeholder {
     width: 100%;
     float: left;
     background-image: url(../images/bg-2.png);
-    background-size: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 480px;
-    margin-top: 90px;
+    margin-top: 20px;
 
 }
-.mail_section {
-    width: 74%;
-    float: left;
-    margin-top: 120px;
-    padding-left: 180px;
-}
+
 
 .footer_section {
     width: 100%;
