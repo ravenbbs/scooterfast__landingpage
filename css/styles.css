@@ -7,12 +7,13 @@
   box-sizing: border-box;
 }
 a {
-  color: #1f1f1f;
+  color: #ffffff;
   text-decoration: none;
   outline: none;
 }
 li {
   list-style: none;
+  
 }
 /* inicio animacion */
 .intro{
@@ -228,8 +229,12 @@ i {
 .section__column{
   max-width: 25%;
   width: 300px;
+  color: #ffffff;
 }
 
+.section__title{
+  margin-bottom: 12px;
+}
 
 
 
