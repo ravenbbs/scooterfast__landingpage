@@ -227,6 +227,7 @@ button {
     font-size: 18px;
 }
 .logo-title{
+    position: relative;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -239,7 +240,7 @@ button {
     height: 130px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #000;
+    color: #f1e3f1;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 50px;
@@ -636,7 +637,6 @@ input.mail_text::placeholder {
     font-weight: bold;
     padding-top: 80px; 
     padding-left: 60px;
-   
 }
 .content_text{
     width: 60%;
@@ -647,7 +647,6 @@ input.mail_text::placeholder {
     padding-right: 12%;
 }
 .bg_7 {
-
     width: 100%;
     float: left;
     background-image: url(../images/bg-2.png);
@@ -656,7 +655,6 @@ input.mail_text::placeholder {
     background-repeat: no-repeat;
     height: 95%;
     margin-top: 20px;
-
 }
 
 
@@ -801,9 +799,23 @@ top: 27%;
     color: #bc4ed8;
 }
 
+nav ul{
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 
-
-
-
+.position-fixed-active {
+    position: absolute;
+    top : 16px;
+    right: 22px;
+    width: 32px;
+   
+}
 
 
