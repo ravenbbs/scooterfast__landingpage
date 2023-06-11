@@ -347,6 +347,9 @@ button {
     align-items: center;
     flex-direction: column;
 }
+.padding_left0--active{
+    padding-left: 60px;
+}
 .padding_left10{
     width: 100%;
    
@@ -645,7 +648,13 @@ input.mail_text::placeholder {
     padding-top: 80px; 
     padding-left: 60px;
 }
+.services_text{
+
+    color: #bc4ed8;
+
+}
 .contact_texts{
+    width: 56%;
     padding-top: 70px; 
     margin: 0;
 }
