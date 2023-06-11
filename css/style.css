@@ -212,18 +212,16 @@ button {
      float: left;
      width: 100%;
 }
-
 .layout_padding {
      padding-top: 10px;
      padding-bottom: 0px;
 }
-
 .padding_0{
+
      padding: 0px;
      display: flex;
      justify-content: center;
 }
-
 .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
     font-size: 18px;
@@ -234,7 +232,6 @@ button {
     flex-direction: column;
     margin: -15px;
 }
-
 
 .bg-light {
     background-color: #bc4ed8;
@@ -452,6 +449,7 @@ button {
     background-repeat: no-repeat;
     height: 100%;
     display: flex;
+ 
 
 }
 .about_section {
@@ -516,18 +514,24 @@ button {
     background-color: #000;
 }
 .bg_4 {
-    width: 780px;
+    width: 80%;
     float: left;
     background-image: url(../images/bg-3.png);
     height: 570px;
     background-size: cover;
     background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .image_4 {
     width: 100%;
-    float: left;
+
     text-align: center;
-    padding-top: 100px;
+
+}
+.image_4 img{
+    width: 100px;
 }
 .readable_text{
     width: 100%;
@@ -539,7 +543,7 @@ button {
     padding-top: 30px;
 }
 .lorem_text {
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     font-size: 14px;
     color: #000;
@@ -630,7 +634,8 @@ input.mail_text::placeholder {
     font-size: 40px;
     color: #0a0707;
     font-weight: bold;
-    padding-top: 120px; 
+    padding-top: 80px; 
+    padding-left: 60px;
    
 }
 .content_text{
