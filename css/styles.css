@@ -13,7 +13,8 @@ header,
 .navbar,
 .logo,
 .texto-carrusel,
-.texto1 {
+.texto1,
+.iconos-prev-next {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -102,9 +103,38 @@ header {
 
 .img-carrusel {
   border-radius: 20%;
+  position: relative;
 }
 
 .img-carrusel img {
   height: 100%;
   border-radius: 20%;
+}
+
+.iconos-prev-next {
+  width: 80%;
+  justify-content: space-between;
+  position: absolute;
+  right: 10%;
+  bottom: -5%;
+  text-decoration: none;
+}
+
+.iconos-prev-next a {
+  padding: 15px 20px;
+}
+
+.carousel-control-prev {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #18181a;
+}
+
+.carousel-control-next {
+  color: #18181a;
+  background-color: #ffffff;
+}
+
+i {
+  font-size: 20px;
 }

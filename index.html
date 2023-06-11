@@ -4,16 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ScooterFast</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <meta name="keywords" content="Scooter rent, Scooter electric, tech" />
     <meta
       name="description"
       content="FooterFast es la app de movilidad todo en uno. Solicita que te recoja un conductor de primera en cuestión de minutos y disfruta de un cómodo viaje hasta tu ..."
     />
     <meta name="author" content="Grupo10" />
+    <!-- bootstrap css -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen"
+    />
+    <!-- Iconos -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
+
+    <!-- CARRUSEL -->
+    <!-- Link Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
   </head>
   <body>
-  </div> 
     <header>
       <section class="logo">
         <h2 class="titulo-logo">ScooterFast</h2>
@@ -34,43 +55,96 @@
       </ul>
     </header>
     <main>
-      <section class="home">
-        <div class="texto-carrusel">
-          <section class="texto1">
-            <h2>Alquiler de vehiculos eléctricos a empresas</h2>
-            <p>
-              Contamos con una gran variedad de modelos y diferentes planes de
-              alquiler
-            </p>
-            <a class="boton" href="#">Leer más</a>
-          </section>
+      <section class="content reviews" id="reviews">
+        <!-- Home Boxes -->
+        <div class="reviews-content swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <!-- Box 1 -->
+              <section class="home">
+                <div class="texto-carrusel">
+                  <section class="texto1">
+                    <h2>Alquiler de vehiculos eléctricos a empresas</h2>
+                    <p>
+                      Contamos con una gran variedad de modelos y diferentes
+                      planes de alquiler
+                    </p>
+                    <a class="boton" href="#">Leer más</a>
+                  </section>
+                </div>
+                <div class="img-carrusel">
+                  <img src="./img/scooter_1.jpg" alt="scooter eléctrico" />
+                  <div class="iconos-prev-next">
+                    <a
+                      class="carousel-control-prev"
+                      href="#main_slider"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#main_slider"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <i class="fa fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="swiper-slide">
+              <!-- Box 2 -->
+              <section class="home">
+                <div class="texto-carrusel">
+                  <section class="texto1">
+                    <h2>Alquiler de vehiculos eléctricos a empresas</h2>
+                    <p>
+                      Contamos con una gran variedad de modelos y diferentes
+                      planes de alquiler
+                    </p>
+                    <a class="boton" href="#">Leer más</a>
+                  </section>
+                </div>
+                <div class="img-carrusel">
+                  <img src="./img/scooter_1.jpg" alt="scooter eléctrico" />
+                  <div class="iconos-prev-next">
+                    <a
+                      class="carousel-control-prev"
+                      href="#main_slider"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#main_slider"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <i class="fa fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="img-carrusel">
-          <img src="./img/scooter_1.jpg" alt="scooter eléctrico" />
-        </div>
-        <!-- <div>
-          <a
-            class="carousel-control-prev"
-            href="#main_slider"
-            role="button"
-            data-slide="prev"
-          >
-            <i class="fa fa-angle-left"></i>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#main_slider"
-            role="button"
-            data-slide="next"
-          >
-            <i class="fa fa-angle-right"></i>
-          </a>
-        </div> -->
       </section>
     </main>
+
     <!-- SCRIPTS -->
     <div>
-      <script src="js/bootstrap.bundle.min.js"></script>
+      <!-- Carousel Swipper JS-->
+      <script src="js/swiper-bundle.min.js"></script>
+
+      <!-- Link to JS -->
+      <script src="js/main.js"></script>
+
       <script src="js/script.js"></script>
     </div>
   </body>
