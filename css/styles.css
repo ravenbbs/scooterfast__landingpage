@@ -11,6 +11,9 @@ a {
   text-decoration: none;
   outline: none;
 }
+li {
+  list-style: none;
+}
 /* inicio animacion */
 .intro{
   position: fixed;
@@ -90,7 +93,6 @@ header {
 }
 
 .navbar {
-  list-style: none;
   justify-content: space-between;
   width: 50vw;
 }
@@ -162,3 +164,40 @@ header {
   height: 100%;
   border-radius: 20%;
 }
+
+
+
+/*start footer section*/
+.footer{
+  width: 100%;
+  background-color: #1b004b;
+  color: #ffffff;
+  height: auto;
+  border-top: 10px solid #ffffff;
+  padding: 60px 32px;
+}
+.footer__section{    /*secciones del footer aplicar en mobile*/
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.section__column{
+  max-width: 25%;
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*end footer section*/
