@@ -235,9 +235,9 @@ button {
 }
 
 .bg-light {
-    background-color: #bc4ed8;
-    background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
-    height: 130px;
+    background-color: #363636;
+    background-image: linear-gradient(90deg, #000000 0%, #000000 100%);
+    height: 100px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #f1e3f1;
@@ -819,3 +819,6 @@ nav ul{
 }
 
 
+.header_secction{
+    background-color: #000;
+}
