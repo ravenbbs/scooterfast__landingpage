@@ -166,6 +166,18 @@ header {
 }
 
 
+.caracteristicas{
+  display: flex;
+  background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%); ;
+}
+.contactbg {
+  width: 50%;
+  background-image: url(../images/bg-2.png);
+  background-position: center;
+}
+.caracteristicas__image{
+  width: 50%;
+}
 
 /*start footer section*/
 .footer{
