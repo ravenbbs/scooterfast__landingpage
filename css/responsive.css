@@ -332,7 +332,7 @@ padding: 126px 40px;
 .bg_5 { background: #201f33; height: auto; padding-bottom: 30px; margin-top: 30px; }
 .bg_7 { background: #ffffff; height: auto; padding-bottom: 30px; margin-top: 0px; }
 .content_text { width: 100%; }
-.bg_6 { background: #ef5051; height: auto; margin-top: 30px; padding: 0px 15px 30px 15px; }
+.bg_6 { background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);; height: auto; margin-top: 30px; padding: 0px 15px 30px 15px; }
 .mail_section { width: 100%; margin-top: 0px; padding-left: 0px; } 
 .Subscribe_text a { width: 150px; }
 .contact_text { padding-top: 0px; }
@@ -449,7 +449,7 @@ ul.link li {
 .bg_5 { background: #201f33; height: auto; padding-bottom: 30px; margin-top: 30px; }
 .bg_7 { background: #ffffff; height: auto; padding-bottom: 30px; margin-top: 0px; }
 .content_text { width: 100%; }
-.bg_6 { background: #ef5051; height: auto; margin-top: 30px; padding: 0px 15px 30px 15px; }
+.bg_6 { background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);; height: auto; margin-top: 30px; padding: 0px 15px 30px 15px; }
 .mail_section { width: 100%; margin-top: 0px; padding-left: 0px; } 
 .Subscribe_text a { width: 150px; }
 .contact_text { padding-top: 0px; }
