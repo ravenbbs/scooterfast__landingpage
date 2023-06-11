@@ -217,10 +217,17 @@ button {
      padding-bottom: 0px;
 }
 .padding_0{
-
      padding: 0px;
      display: flex;
      justify-content: center;
+}
+.padding_0--bg{
+    background-image: url(../images/bg-1.png);
+    background-position: center;
+    background-size: 120%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #ffffff;
@@ -637,6 +644,10 @@ input.mail_text::placeholder {
     font-weight: bold;
     padding-top: 80px; 
     padding-left: 60px;
+}
+.contact_texts{
+    padding-top: 70px; 
+    margin: 0;
 }
 .content_text{
     width: 60%;
