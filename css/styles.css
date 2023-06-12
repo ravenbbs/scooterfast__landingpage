@@ -323,7 +323,6 @@ animation: latidos 1s infinite;
 
 .img-carrusel {
   border-radius: 20%;
-  position: relative;
 }
 
 .img-carrusel img {
@@ -474,6 +473,9 @@ i {
 }
 
 @media screen and (max-width: 720px) {
+  .navbar {
+    width: 35vw;
+  }
 
   .caracteristicas__image {
     max-width: 480px;
@@ -499,6 +501,9 @@ i {
 }
 
 @media screen and (max-width: 480px) {
+  .navbar {
+    width: 90vw;
+  }
   .design__image{
     width: 480px;
   }
