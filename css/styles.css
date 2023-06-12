@@ -124,7 +124,7 @@ header {
 
 .texto-carrusel-home,
 .texto-carrusel-tutorial {
-  background-image: url("../img/bg-1.png");
+  background-image: url("../images/bg-1.png");
   background-position: center;
   background-size: 600px 480px;
   background-repeat: no-repeat;
