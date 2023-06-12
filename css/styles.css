@@ -236,6 +236,18 @@ i {
   margin-bottom: 12px;
 }
 
+.map_text a{
+  display: flex;
+  gap: 3%;
+  margin: 0 0 12px 0;
+}
+
+
+
+.social_icon ul{
+  display: flex;
+  gap: 4%;
+}
 
 
 
