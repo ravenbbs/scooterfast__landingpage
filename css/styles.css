@@ -18,6 +18,47 @@ li {
   /* algunos titulos y textos envueltos en span*/
   color: #d400ff;
 }
+.animation--letters{
+  display: inline-block;
+  margin: -4px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.4s ease-out;
+}
+.animation--letters:hover{
+  animation: textfocus  1s ease;
+  color:#12FF00  ;
+  text-shadow: #d400ff 0px 0px 4px;
+}
+.img-logo{
+
+  top: -22px;
+  margin: 4px;
+}
+@keyframes textfocus  {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
 
 /* inicio animacion */
 .intro {
@@ -30,12 +71,12 @@ li {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  z-index: 6;
+  z-index: 20;
   background-color: #201F33;
   transition: 2s;
 }
 .intro__logo {
-  top: 90px;
+  top: 290px;
   position: absolute;
 }
 .intro__logo--scoter {
@@ -48,11 +89,11 @@ li {
 .text__logo--parts {
   position: relative;
   display: inline-block;
-  bottom: -20px;
+  bottom: 40px;
   opacity: 0;
 }
 .text__logo--parts.active {
-  bottom: -5px;
+  bottom: -50px;
   opacity: 1;
   transition: ease-in-out 1s;
 }
@@ -109,12 +150,7 @@ header {
   padding: 0 5px;
 }
 
-.navbar > li a:hover {
-  background: linear-gradient(90deg, #c969ef 0%, #cd5ee9 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
+
 
 .whatsapp {
   position: fixed;
@@ -209,10 +245,20 @@ header {
 
 .boton {
   color: #ffffff;
+  background-color: #bc4ed8;
   text-decoration: none;
   padding: 6% 16%;
   border-radius: 25px;
-  background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%);
+  transition: 1s ease;
+  font-weight: 600;
+}
+.boton:hover {
+  color: #000000;
+  text-decoration: none;
+  padding: 6% 16%;
+  border-radius: 25px;
+  background-color: #ffffff;
+  background-image:none;
 }
 
 .img-carrusel {
@@ -317,7 +363,7 @@ i {
   transition: 0.4s ease-in-out;
 }
 .hover_pink:hover{
-  color: #ff00d4;
+  color: #df61ff;
 }
 
 
@@ -327,7 +373,7 @@ i {
   padding: 12px 16px;
   width: 120px;
   height: 40px;
-  background-color: #9900b8;
+  background-color: #d400ff;
   transition: .5s ease-in-out;
 }
 
