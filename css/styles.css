@@ -82,17 +82,13 @@ header,
 }
 
 header {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  scroll-margin-top: 80px;
-}
-
-header {
   color: #ffffff;
   background-color: #000000;
   justify-content: space-evenly;
   padding: 3vh 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .titulo-logo {
@@ -118,6 +114,14 @@ header {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+  width: 55px;
+  height: 55px;
 }
 
 /* MAIN */
@@ -326,11 +330,11 @@ i {
   color: #ffffff;
   background-color: #ffffff;
 }
-.container{
+.container {
   margin-top: 12px;
   padding-top: 12px;
   border-top: #ffffff 4px solid;
-  text-align: center
+  text-align: center;
 }
 /*end footer section*/
 
@@ -338,17 +342,16 @@ i {
   .footer {
     padding-left: 40px;
   }
-.footer__section {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  gap: 20px;
+  .footer__section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+  }
 }
-}
-
 
 @media screen and (max-width: 720px) {
 
@@ -367,4 +370,6 @@ i {
 
 @media screen and (max-width: 480px) {
 
+}
+@media screen and (max-width: 640px) {
 }
