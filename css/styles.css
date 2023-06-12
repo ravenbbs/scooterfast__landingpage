@@ -222,6 +222,9 @@ animation: latidos 1s infinite;
 }
 
 /* MAIN */
+.text_shadow{
+  text-shadow: #000000 0px 0px 6px;
+}
 
 /* Home */
 .home,
@@ -293,7 +296,7 @@ animation: latidos 1s infinite;
 .texto-carrusel-carrusel {
   text-align: center;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   height: 85%;
@@ -336,6 +339,9 @@ animation: latidos 1s infinite;
 }
 
 .img-scooter-tutorial img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
   border-radius: 0;
 }
 /* Fin de Home */
@@ -385,9 +391,6 @@ i {
 .design__image:hover{
   filter: drop-shadow(0px 0px 18px #ffffff);
 }
-
-
-
 .caracteristicas--white {
   background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
 }
@@ -436,8 +439,6 @@ i {
 .hover_pink:hover{
   color: #df61ff;
 }
-
-
 .Subscribe_text {
   margin-top: 12px;
   border-radius: 6px;
@@ -482,12 +483,10 @@ i {
     gap: 20px;
   }
 }
-
 @media screen and (max-width: 720px) {
   .navbar {
     width: 35vw;
   }
-
   .caracteristicas__image {
     max-width: 480px;
     height: 500px;
@@ -497,20 +496,22 @@ i {
     /* width: auto; */
     height: auto;
   }
-  
+  .texto1{
+    width: 60%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+ }
+
 }
-
-
 @media screen and (max-width: 640px) {
   .texto-section{
         padding-left: 8vw;
     }
-
   .textour{
     padding-left: 5vw;
   }
 }
-
 @media screen and (max-width: 480px) {
   .navbar {
     width: 90vw;
@@ -518,5 +519,9 @@ i {
   .design__image{
     width: 480px;
   }
+  .texto1{
+    width: 100%;
+
+ }
 }
 
