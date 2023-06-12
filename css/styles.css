@@ -82,6 +82,13 @@ header,
 }
 
 header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  scroll-margin-top: 80px;
+}
+
+header {
   color: #ffffff;
   background-color: #000000;
   justify-content: space-evenly;
@@ -107,7 +114,7 @@ header {
 }
 
 .navbar > li a:hover {
-  background: linear-gradient(90deg, #b510f6 0%, #bc4ed8 100%);
+  background: linear-gradient(90deg, #c969ef 0%, #cd5ee9 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -173,7 +180,7 @@ header {
   width: 50%;
   padding-left: 3vw;
 }
-.textour{
+.textour {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
