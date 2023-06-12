@@ -295,6 +295,7 @@ i {
   max-width: 25%;
   min-width: 200px;
   color: #ffffff;
+  transition: .5s ease-in-out;
 }
 
 .section__title {
@@ -312,10 +313,13 @@ i {
   gap: 4%;
 }
 
-.map_icon:hover {
+.hover_pink{
   transition: 0.4s ease-in-out;
+}
+.hover_pink:hover{
   color: #ff00d4;
 }
+
 
 .Subscribe_text {
   margin-top: 12px;
@@ -324,11 +328,16 @@ i {
   width: 120px;
   height: 40px;
   background-color: #9900b8;
+  transition: .5s ease-in-out;
 }
 
-.Subscribe_text:hover a {
-  color: #ffffff;
+.Subscribe_text:hover  {
   background-color: #ffffff;
+  transition: .5s ease-in-out;
+}
+.Subscribe_text:hover a  {
+  color: #000000;
+  transition: .5s ease-in-out;
 }
 .container {
   margin-top: 12px;
@@ -356,14 +365,16 @@ i {
 @media screen and (max-width: 720px) {
 
   .caracteristicas__image {
-    width: 480px;
+    max-width: 480px;
+    height: 500px;
   }
   .design__image{
     display: block;
-    width: 480px;
-    height: 600px;
-
+    width: auto;
+    height: auto;
+    
   }
+  
 }
 
 
