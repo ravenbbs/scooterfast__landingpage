@@ -173,7 +173,6 @@ header {
 }
 /* Fin de Home */
 
-HEAD
 .carousel-control-prev {
   color: #ffffff;
   text-decoration: none;
@@ -239,7 +238,6 @@ i {
 }
 
 
-
 .social_icon ul{
   display: flex;
   gap: 4%;
@@ -250,8 +248,19 @@ i {
   color: #ff00d4;
 }
 
+.Subscribe_text{
+  margin-top: 12px;
+  border-radius: 6px;
+  padding: 12px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #9900b8;
+}
 
-
+.Subscribe_text:hover a{
+  color: #ffffff;
+  background-color: #ffffff;
+}
 
 
 
