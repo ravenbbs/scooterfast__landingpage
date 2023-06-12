@@ -127,7 +127,7 @@ header {
 }
 
 .texto-carrusel {
-  background-image: url("../img/bg-1.png");
+  background-image: url("../images/bg-1.png");
   background-position: center;
   background-size: 600px 480px;
   background-repeat: no-repeat;
@@ -196,6 +196,8 @@ i {
   font-size: 20px;
 }
 
+
+
 .caracteristicas{
   display: flex;
   background-image: linear-gradient(90deg, #7f00b2 0%, #bc4ed8 100%); ;
@@ -247,6 +249,11 @@ i {
 .social_icon ul{
   display: flex;
   gap: 4%;
+}
+
+.map_icon:hover{
+  transition: .4s ease-in-out;
+  color: #ff00d4;
 }
 
 
