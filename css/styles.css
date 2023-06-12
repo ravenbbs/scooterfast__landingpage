@@ -255,9 +255,11 @@ i {
 }
 
 .caracteristicas__image {
-  width: 100%;
+  width: 480px;
 }
-
+.design__image{
+  width: 620px;
+}
 .caracteristicas--white {
   background-image: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
 }
@@ -341,6 +343,21 @@ i {
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 720px) {
+
+  .caracteristicas__image {
+    width: 480px;
+  }
+  .design__image{
+    display: block;
+    width: 480px;
+    height: 600px;
+
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
 
 }
