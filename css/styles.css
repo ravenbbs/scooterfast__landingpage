@@ -118,7 +118,7 @@ header {
 .texto-carrusel-home,
 .texto-carrusel-tutorial,
 .img-carrusel {
-  height: 400px;
+  height: 500px;
   margin: 1.5vw;
 }
 
@@ -126,7 +126,7 @@ header {
 .texto-carrusel-tutorial {
   background-image: url("../images/bg-1.png");
   background-position: center;
-  background-size: 600px 480px;
+  background-size: 600px 565px;
   background-repeat: no-repeat;
   color: #ffffff;
   width: 540px;
@@ -137,9 +137,10 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-around;
   height: 85%;
-  width: 47%;
+  width: 50%;
+  padding-left: 3vw;
 }
 
 .texto1 h2 {
