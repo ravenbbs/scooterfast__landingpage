@@ -15,6 +15,10 @@ li {
   list-style: none;
   
 }
+.color__pink__texts{ /* algunos titulos y textos envueltos en span*/
+color: #d400ff;
+}
+
 /* inicio animacion */
 .intro {
   position: fixed;
@@ -132,6 +136,27 @@ header {
   width: 540px;
   justify-content: center;
 }
+.background--white{
+  background-image: url("../images/bg-2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #000000;
+  font-weight: 700;
+}
+.background--white-2{
+  background-image: url("../images/bg-3.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #000000;
+  font-weight: 700;
+}
+
+.texto-carrusel-carrusel img{
+height: 100px;
+width: 100px;
+}
 
 .texto1 {
   flex-direction: column;
@@ -141,7 +166,15 @@ header {
   height: 85%;
   width: 47%;
 }
-
+.texto-carrusel-carrusel{
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+  width: 47%;
+}
 .texto1 h2 {
   font-size: 1.7rem;
 }
