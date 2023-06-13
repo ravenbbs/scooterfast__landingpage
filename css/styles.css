@@ -131,7 +131,7 @@ li {
   transition: 3s ease;
 }
 .intro__logo {
-  top: 130px;
+  top: 10%;
   position: absolute;
 }
 .intro__logo--scoter {
@@ -145,17 +145,17 @@ li {
 .text__logo--parts {
   position: relative;
   display: inline-block;
-  bottom: 40px;
+  bottom: 25%;
   opacity: 0;
 }
 .text__logo--parts.active {
-  bottom: -50px;
+  bottom: -35%;
   opacity: 1;
   transition: ease-in-out 1s;
 }
 
 .text__logo--parts.fade {
-  bottom: 250px;
+  bottom: 60%;
   opacity: 0;
   transition: ease-in-out 1s;
 }
@@ -619,6 +619,22 @@ i {
 }
 
 @media screen and (max-width: 480px) {
+  .titulo-logo{
+    font-size: 2rem;
+  }
+  .text__logo--parts {
+    bottom: -15%;
+  }
+  .text__logo--parts.active {
+    bottom: -85%;
+  }
+  
+  .text__logo--parts.fade {
+    bottom: 80%;
+  }
+  .text__logo{
+    font-size: 1.75rem;
+  }
   .design__image {
     height: min-content;
   }
