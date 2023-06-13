@@ -1,3 +1,17 @@
+// Menu Hamburguesa
+let menu = document.querySelector(".menu-icon");
+let navbar = document.querySelector(".navbar");
+
+menu.onclick = () => {
+  navbar.classList.toggle("open-menu");
+  menu.classList.toggle("move");
+};
+
+window.onscroll = () => {
+  navbar.classList.remove("open-menu");
+  menu.classList.remove("move");
+};
+
 // Carousel Swiper
 let swiper = new Swiper(".reviews-content", {
   spaceBetween: 30,
@@ -11,4 +25,3 @@ let swiper = new Swiper(".reviews-content", {
     clickable: true,
   },
 });
-
