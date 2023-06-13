@@ -619,6 +619,24 @@ i {
 }
 
 @media screen and (max-width: 480px) {
+  .caracteristicas--white{
+    margin: 0;
+  }
+  .background--white {
+    background-color: #ffffff;
+    background-image: none;
+    margin: 0;
+  }
+  .background--white-2 {
+    background-color: #ffffff;
+    background-image: none;
+  }
+  .texto-carrusel-home--responsive{
+    background-color: #201F33;
+    background-image: none;
+    margin: 0;
+    margin-bottom: 12px;
+  }
   .titulo-logo{
     font-size: 2rem;
   }
