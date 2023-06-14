@@ -662,11 +662,9 @@ i {
     padding-left: 0;
     text-align: left;
     line-height: 25px;
-    color: white;
   }
 
-  .texto-carrusel-home,
-  .texto-carrusel-tutorial {
+  .bg-texto {
     background-image: none;
     background-color: #201f33;
   }
