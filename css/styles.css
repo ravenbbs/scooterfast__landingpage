@@ -667,5 +667,6 @@ i {
   .bg-texto {
     background-image: none;
     background-color: #201f33;
+    margin: -15px -15px 10px;
   }
 }
