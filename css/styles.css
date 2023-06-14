@@ -535,7 +535,7 @@ i {
 /* Responsive start */
 @media screen and (max-width: 840px) {
   .container {
-    margin: 8px auto;
+    margin: 9px auto;
     width: 90%;
   }
 
@@ -619,7 +619,7 @@ i {
 }
 
 @media screen and (max-width: 480px) {
-  .caracteristicas--white{
+  .caracteristicas--white {
     margin: 0;
   }
   .background--white {
@@ -631,13 +631,13 @@ i {
     background-color: #ffffff;
     background-image: none;
   }
-  .texto-carrusel-home--responsive{
-    background-color: #201F33;
+  .texto-carrusel-home--responsive {
+    background-color: #201f33;
     background-image: none;
     margin: 0;
     margin-bottom: 12px;
   }
-  .titulo-logo{
+  .titulo-logo {
     font-size: 2rem;
   }
   .text__logo--parts {
@@ -646,11 +646,11 @@ i {
   .text__logo--parts.active {
     bottom: -85%;
   }
-  
+
   .text__logo--parts.fade {
     bottom: 80%;
   }
-  .text__logo{
+  .text__logo {
     font-size: 1.75rem;
   }
   .design__image {
@@ -658,6 +658,16 @@ i {
   }
 
   .texto1 {
-    width: 100%;
+    width: 80%;
+    padding-left: 0;
+    text-align: left;
+    line-height: 25px;
+    color: white;
+  }
+
+  .texto-carrusel-home,
+  .texto-carrusel-tutorial {
+    background-image: none;
+    background-color: #201f33;
   }
 }
